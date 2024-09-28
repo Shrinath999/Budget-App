@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Budget Application</title>
+</head>
+<body>
+    
+
+    <div class="mobile-screen-container">
+        <div class="mobile-screen">
+            <div class="r-balance-container">
+                <div class="remaining-balance">
+                    <div class="balance-div">
+                        <p>Balance</p>
+                        <h1 id="myBalance"></h1>
+                    </div>
+                    <div class="wallet-img-div">
+                        <img src="https://pluspng.com/img-png/png-wallet-wallet-png-image-3474.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+           <div class="balance-c">
+            <div class="add-balance-div">
+                <input type="number" placeholder="Enter Monthly Balance" id="balanceInput">
+                <button id="addbalance">Add Balance</button>
+            </div>
+           </div>
+
+           <div class="add-expense-c">
+            <div class="add-expence">
+                <input type="text" placeholder="Add Expense" id="expenseInput">
+                <input type="number" placeholder="Add Amount" id="amountexpense">
+                <button id="addExpenseBtn">Add Expense</button>
+            </div>
+           </div>
+
+           <div class="expense-deiales-c">
+            <div class="expense-deiales">
+                <p class="myExpense-h">My Expences</p>
+               <div class="title-and-price">
+               
+               </div>
+            </div>
+           </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

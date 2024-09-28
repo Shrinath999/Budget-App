@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,800;1,900&family=Roboto:ital,wght@0,500;1,100&family=Syne+Tactile&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(0, 83, 118);
+    font-family: "Poppins";
+}
+.mobile-screen-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.mobile-screen{
+    height: 635px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+.r-balance-container{
+    display: flex;
+    justify-content: center;
+}
+.remaining-balance{
+    height: 125px;
+    border-radius: 10px;
+    margin-top: .4rem;
+    width: 97%;
+    background-color: #fa9b47;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.wallet-img-div{
+    margin-right: .4rem;
+    margin-top: .6rem;
+}
+.wallet-img-div img{
+    height: 100px;
+}
+.balance-div{
+    margin-left: .4rem;
+    margin-top: 1.5rem;
+}
+.balance-div p , h1{
+    color: #fff;
+}
+
+.add-balance-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.balance-c{
+    display: flex;
+    justify-content: center;
+}
+.add-balance-div{
+    width: 95%;
+    margin-top: .5rem;
+}
+.add-balance-div input{
+    width: 95%;
+    height: 30px;
+    font-family: "Poppins";
+    padding-left: .5rem;
+    outline: none;
+}
+.add-balance-div button{
+    width: 98%;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: "Poppins";
+    margin-top: .2rem;
+    background-color: #fa9b47;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    padding: .5rem;
+}
+#addExpenseBtn{
+    width: 94%;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: "Poppins";
+    margin-top: .2rem;
+    background-color: #5de2a0;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: .5rem;
+}
+.add-expense-c{
+    display: flex;
+}
+.add-expence{
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.add-expence input{
+    width: 91%;
+    margin-top: .4rem;
+    height: 30px;
+    font-family: "Poppins";
+    padding-left: .5rem;
+    outline: none;
+}
+.myExpense-h{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: .6rem;
+    margin-left: .6rem;
+}
+.title-and-price{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: .5rem;
+}
+#myTitle{
+  margin-left: .5rem;
+}
+#myPrice{
+    margin-right: .5rem;
+}
+.tex{
+    text-align: center;
+    margin-top: 1rem;
+    display: none;
+}
+.PrPrice{
+    margin-left: 19rem;
+    position: absolute;
+    padding: .2rem;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+.tfortitler{
+    margin-left: .4rem;
+    margin-bottom: .5rem;
+    padding: .2rem;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+}
